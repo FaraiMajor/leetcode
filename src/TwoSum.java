@@ -24,7 +24,7 @@ public class TwoSum {
     }
 }
 
-// using two pointer O(N)
+// using two pointer O(N) for sorted Arrays
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int left = 0, right = nums.length - 1, sum;
