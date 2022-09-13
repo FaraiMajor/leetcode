@@ -9,3 +9,4 @@ class main {
         System.out.println("Username is: " + userName); // Output user input
     }
 }
+//sample
