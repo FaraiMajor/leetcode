@@ -9,6 +9,7 @@ public class ImplementQueueUsingStacks {
         }
 
         public void push(int x) {
+
             stack1.push(x);
         }
         public int pop() {
@@ -35,6 +36,7 @@ public class ImplementQueueUsingStacks {
         }
 
         public boolean empty() {
+
             return stack1.empty();
     }
 }
