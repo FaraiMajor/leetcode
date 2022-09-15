@@ -11,7 +11,7 @@ public class ReverseWords {
 
     public static String reverseWords(String s) {
         String[] words = s.split("\\W+");
-        Deque<String> stack = new LinkedList<>();
+        Stack<String> stack = new Stack<>();
 
         for (int i = 0; i < words.length; i++) {
             stack.push(words[i]);
